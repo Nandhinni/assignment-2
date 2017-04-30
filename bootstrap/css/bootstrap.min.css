@@ -1,0 +1,15 @@
+#navigation
+{
+	background-color: #852D72;
+}
+body 
+{   background-color: #448fb9;
+	background-image: url("../images/dog-bg.jpg");
+    font-family: 'Open Sans', serif;
+    font-size: 20px;
+ }
+ #border_div
+{
+	border:7px solid #852D72;
+	margin-top: 100px;
+}
