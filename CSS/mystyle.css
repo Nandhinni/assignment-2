@@ -1,0 +1,201 @@
+#heading
+{
+	background-color: #852D72;
+	height:10%;
+}
+#navigation_fonts
+{
+ color:white;
+ 
+}
+#navigation
+{
+	background-color:#EAB7E2;
+	display:inline;
+}
+#navigation_hover a:hover
+{
+	color:black;
+}
+.navigation_bar
+{
+  padding-top: 3%;
+  background-color: white;
+}
+#navigation_text
+{
+	margin-top: 20px;
+}
+li
+{   
+	display: inline;
+   color:black;
+    padding-right: 20px;
+    font-size: 20px;
+ 
+}
+.mybody 
+{   
+	font-family: 'Open Sans', serif;
+    font-size: 20px;
+    background-image: url(../img/dog_bg.jpg);
+    
+
+ }
+ .part3
+ {
+ 	font-size: 20px;
+ }
+ #border_div
+{
+	border:7px solid #852D72;
+	
+}
+.part4
+{
+	background-color: white;
+}
+.part1
+{
+	background-color: white;
+	margin-right:0%;
+}
+.part2
+{    font-size: 25px;
+	padding-top: 4%;
+	padding-bottom:0%;
+	background-color: #EAB7E2;
+}
+ul li a:hover
+{
+	   text-decoration: none;
+	   color:#852D72;
+}
+#hero_part
+{
+	margin-left: 0px;
+}
+.first_page
+{
+	color:white;
+	font-size: 20px;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(../img/pic7.png);
+    height:3%;
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.part6
+{
+	padding-top: 10px;
+	background-color: #A4789A;
+	font-family: 'Anton', sans-serif;
+	
+}
+.icon
+{   font-size: 30px;
+	color:white;
+}
+a:hover
+{   
+	color:black;
+	text-decoration: none;
+}
+/*.container_img {
+    position: relative;
+    width: 50%;
+}*/
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  width:380px;
+  height:276px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.hold_img:hover .image {
+  opacity: 0.3;
+}
+
+.hold_img:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #852D72;
+  color: white;
+  font-size: 22px;
+  padding: 16px 32px;
+}
+#heading_fonts
+{
+	color:#852D72;
+	font-family: 'Love Ya Like A Sister', cursive;
+}
+#para_fonts
+{
+	font-family: 'Indie Flower', cursive;
+}
+
+.parent {
+  background: url('https://localtvkfor.files.wordpress.com/2015/03/91.jpg?w=2000') center center fixed;
+  background-size: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -100;
+}
+
+.wrapper, .row {
+  height: 100%%; 
+
+}
+
+.child {
+  background-color: rgba(214, 105, 190,.5);
+  padding: 18px;  
+  height: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#border_div
+{
+	border:7px solid #852D72;
+}
+ .frame 
+ { 
+     height: 200px; width: 200px;
+ 	 overflow: hidden; 
+ 	} 
+.zoomin img 
+{ 
+	height: 200px; width: 200px; -webkit-transition: all 2s ease; -moz-transition: all 2s ease; 
+	-ms-transition: all 2s ease; transition: all 2s ease; 
+} 
+.zoomin img:hover 
+{
+	width: 300px; height: 300px; 
+	} 
