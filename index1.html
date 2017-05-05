@@ -1,139 +1,145 @@
 <!DOCTYPE html>
-  <head>
-  
+ <head>
+    <title>Bootstrap page</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="CSS/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" rel="stylesheet"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link href="CSS/mystyle.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
   </head>
   <body class="mybody">
+   
 
-   <div class="navbar navbar-fixed-top" style="color:white;">
-	<div class="container"  style="background-color: #852D72;height:100px;">
+   <div class=" container navbar navbar-fixed-top" id= "navigation_div">
+	<div id="navigation_div">
 		
 		<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-		<!--<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		</button>-->
+		<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+
+      			<span class="icon-bar"></span>
+      			<span class="icon-bar"></span>
+      			<span class="icon-bar"></span>
+
+      		</button>
+
 	
 		<a class="navbar-brand col-md-3" href="/"><img src="img/header.png" alt="Your Logo"></a>
 	
 		<!-- <div class="nav-collapse collapse navbar-responsive-collapse"> -->
-		<div class="col-md-9" style="padding-top: 15px;">
-			<ul class="nav navbar-nav">
-				<!-- <li class="active dropcolor" class="first_page"> -->  
-				<li class="active" class="first_page" id="navigation_hover"> 
-					<a href="../assignment1/index.html" id="navigation_fonts">Home</a>
-				</li>
+		<div class="navbar-collapse collapse navbar-responsive-collapse" id="article_div">
+      <ul class="nav navbar-nav">
+        <!-- <li class="active dropcolor" class="first_page"> -->  
+        <li class=" first_page navigation_hover"> 
+          <a href="../assignment1/index.html" class="navigation_fonts">Home</a>
+        </li>
 
-				<li class="dropdown" id="navigation_hover">
-					<a href="#" class="dropdown-toggle dropcolor" data-toggle="dropdown" id="navigation_fonts">Petcare Services <strong class="caret"></strong></a>
-					
-					<ul class="dropdown-menu">
-						<li>
-							<a href="#">Dog walking</a>
-						</li>
-						
-						<li>
-							<a href="#">Pet Sitting</a>
-						</li>
-						
-						<li>
-							<a href="#">Overnight Services</a>
-						</li>
-						
-						<li class="divider">More Services</li>
-						
-						<li class="dropdown-header"></li>
-						
-						<li>
-							<a href="#">Speciality Services</a>
-						</li>
-						
-						<li>
-							<a href="#">Puppy Program</a>
-						</li>
-					</ul>
-				</li>
+        <li class="dropdown navigation_hover">
+          <a href="#" class="dropdown-toggle dropcolor navigation_fonts" data-toggle="dropdown" >Petcare Services <strong class="caret"></strong></a>
+          
+          <ul class="dropdown-menu">
+            <li>
+              <a href="#">Dog walking</a>
+            </li>
+            
+            <li>
+              <a href="#">Pet Sitting</a>
+            </li>
+            
+            <li>
+              <a href="#">Overnight Services</a>
+            </li>
+            
+            <li class="divider">More Services</li>
+            
+            <li class="dropdown-header"></li>
+            
+            <li>
+              <a href="#">Speciality Services</a>
+            </li>
+            
+            <li>
+              <a href="assign2.html">Puppy Program</a>
+            </li>
+          </ul>
+        </li>
 
-				<li class="dropdown" id="navigation_hover">
-					<a href="#" class="dropdown-toggle dropcolor" data-toggle="dropdown" id="navigation_fonts">About Us<strong class="caret"></strong></a>
-					
-					<ul class="dropdown-menu">
-						<li>
-							<a href="#">Vision & Mission</a>
-						</li>
-						
-						<li>
-							<a href="#">Provider Comparison</a>
-						</li>
-						
-						<li class="divider">More Services</li>
-						
-						<li class="dropdown-header"></li>
-						
-						<li>
-							<a href="#">What makes us different</a>
-						</li>
-						
-						<li>
-							<a href="#">Highlights</a>
-						</li>
-					</ul>
-				</li>
-						
-			<!--  
-			<form class="navbar-form pull-left">
-				<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
-				<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
-			</form>
-			-->
-			 
-			<ul class="nav navbar-nav" >
-				<li class="dropdown" id="navigation_hover">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" id="navigation_fonts"><span class="glyphicon glyphicon-user" id="navigation_fonts" ></span> My Account <strong class="caret"></strong></a>
-					
-					<ul class="dropdown-menu">
-						<li>
-							<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
-						</li>
-						
-						<li>
-							<a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
-						</li>
-						
-						<li>
-							<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
-						</li>
-						
-					
-						
-						<li>
-							<a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a>
-						</li>
-					</ul>
-				</li>
-			</ul>
-			
-	<!-- end nav pull-right -->
-	
+        <li class="dropdown navigation_hover">
+          <a href="#" class="dropdown-toggle dropcolor navigation_fonts" data-toggle="dropdown" >About Us<strong class="caret"></strong></a>
+          
+          <ul class="dropdown-menu">
+            <li>
+              <a href="#">Vision & Mission</a>
+            </li>
+            
+            <li>
+              <a href="#">Provider Comparison</a>
+            </li>
+            
+            <li class="divider">More Services</li>
+            
+            <li class="dropdown-header"></li>
+            
+            <li>
+              <a href="#">What makes us different</a>
+            </li>
+            
+            <li>
+              <a href="#">Highlights</a>
+            </li>
+          </ul>
+        </li>
+            
+      <!--  
+      <form class="navbar-form pull-left">
+        <input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+      </form>
+      -->
+       
+      <ul class="nav navbar-nav" >
+        <li class="dropdown navigation_hover">
+          <a href="#" class="dropdown-toggle navigation_fonts" data-toggle="dropdown"><span class="glyphicon glyphicon-user navigation_fonts"></span> My Account <strong class="caret"></strong></a>
+          
+          <ul class="dropdown-menu">
+            <li>
+              <a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+            </li>
+            
+            <li>
+              <a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+            </li>
+            
+            <li>
+              <a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
+            </li>
+            
+          
+            
+            <li>
+              <a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      
+  <!-- end nav pull-right -->
+  
 
 
 <!-- end container -->
 </div>
+
 </div><!-- end navbar -->
 </div>
 
-<div class="container" style="background-color:#101010;">
-<nav class="navbar navbar-inverse" style="padding-top: 9%;">
+<div class="container" id="second_div">
+<nav class="navbar navbar-inverse" id="second_nav">
   <div class="container-fluid">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -141,7 +147,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">WebSiteName</a>
+      <a class="navbar-brand" href="#">DOGSTER</a>
     </div>
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
@@ -151,8 +157,8 @@
           <li><a href="#section3">Own Pets</a></li>
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Footer <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#section41">Section 4-1</a></li>
-              <li><a href="#section42">Section 4-2</a></li>
+              <li><a href="#section41">Connect to Us</a></li>
+              <li><a href="#section42">Meet people</a></li>
             </ul>
           </li>
         </ul>
@@ -163,11 +169,11 @@
 </div>  
 
 
-		<div class="container" id="border_div" style="background-color:#F4CEEC;padding-top: 10px;">
+		<div class="container" id="border_div">
 
 					<h1 id="heading_fonts">LOVE OF DOGS</h1>		
-					<p id="para_fonts" style="font-size: 30px;">According to canine researcher and author Stanley Coren, your toddler and pup are about on par when it comes to brains. He also explained that man's best friend can count, understand over 150 words, and even trick people or other dogs to get treats. Intelligence varies based on breed—Border collies are the smartest.</p>
-					<div class="jumbotron" style="height:300px;">
+					<p id="para_fonts">According to canine researcher and author Stanley Coren, your toddler and pup are about on par when it comes to brains. He also explained that man's best friend can count, understand over 150 words, and even trick people or other dogs to get treats. Intelligence varies based on breed—Border collies are the smartest.</p>
+					<div class="jumbotron" id="jumbo_div">
 					</div>
 
 		 <!-- <div class="wrapper"> -->
@@ -177,9 +183,9 @@
 					<h2 id="heading_fonts" >best therapist </h2>
 
 					<div class="hold_img">
-					  <img src="img/slider1.jpg" alt="not found" class="image" style="width:100%">
+					  <img src="img/slider1.jpg" id="slider_image" alt="not found" class="image">
 					  <div class="middle">
-					    <div class="text" id="para_fonts">"A Dog is the only thing on Earth....that loves you more than himself...!"
+					    <div class="text">"A Dog is the only thing on Earth....that loves you more than himself...!"
 					    </div>
 					  </div>
 					</div>
@@ -191,9 +197,9 @@
 
 
 				<div class="hold_img">
-				  <img src="img/slider2.jpg" alt="not found" class="image" style="width:100%">
+				  <img src="img/slider2.jpg" id="slider_image" alt="not found" class="image">
 				  <div class="middle">
-				    <div class="text" id="para_fonts">"If i had a pound for everytime my dog made me smile....I'd be a millionaire..."
+				    <div class="text">"If i had a pound for everytime my dog made me smile....I'd be a millionaire..."
 				    </div>
 				  </div>
 				</div>
@@ -204,23 +210,23 @@
 		<h2 id="heading_fonts" >fur kids</h2>
 
 			 <div class="hold_img"> 
-			  <img src="img/slier4.jpg" alt="not found" class="image" style="width:100%">
+			  <img src="img/slier4.jpg" id="slider_image" alt="not found" class="image">
 			  <div class="middle">
-				    <div class="text" id="para_fonts">"what a beautiful world it would be .... if people had Hearts like Dogs..?"
+				    <div class="text">"wat a beautiful world it would be ...if people had Hearts like Dogs..?"
 				    </div>
 			  </div>
 			</div>
 		</div>	 
 		</div>
 
-<p class="col-md-12" id="para_fonts" style="font-size: 30px;">
+<p class="col-md-12" id="para_fonts">
 Various studies have shown that a having pet can elongate your life, whilst improving your overall happiness and health. It also helps people with depression, stress, anxiety and many other ailments. The affectionate and loyal nature of dogs as pack animals that form close relationships with their owners can help sufferers of depression, who may feel like they don’t have anybody else. Stroking your pet can reduce your blood pressure and stress levels !
 </p>
 
 
 <div id="section2">
  <h2 id="heading_fonts">Pets make you feel wholesome and are a divine partner !</h2>  
-   <div  style="padding-top: 10%;">
+   <div  id="carol_div">
   <div class="row" >
     <div class="col-12-xs child">
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" >
@@ -315,31 +321,63 @@ Various studies have shown that a having pet can elongate your life, whilst impr
   </div>
 </div>
 </div>
+<hr>
 <!-- 
 		<div class="container" style="background-color:lightgreen" -->
 		<h3 id="heading_fonts">Take home your own pets</h3>
           <div class="col-md-4" id="section3">
             <h2 id="heading_fonts">Mr.Charlie</h2>
-              <p id="para_fonts" style="font-size: 25px;">He is two months old.he is well trained..</p> <div class="zoomin frame">           
-           <img src="img/buy1.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236"> 
+              <p id="para_fonts_2">He is two months old.he is well trained..</p> <div class="zoomin frame">           
+           <img src="img/buy1.jpg" class="img-circle" id="circle_img" alt="no image"> 
              </div></div>
              <div class="col-md-4">
             <h2 id="heading_fonts">Mr.Nemo</h2>
-              <p id="para_fonts" style="font-size: 25px;">He is 2 yrs old.He is very charming... </p> <div class="zoomin frame">            
-           <img src="img/buy2.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236"> 
+              <p id="para_fonts_2">He is 2 yrs old.He is very charming... </p> <div class="zoomin frame">            
+           <img src="img/buy2.jpg" class="img-circle" alt="no image" id="circle_img"> 
             </div> </div>
               <div class="col-md-4">
             <h2 id="heading_fonts">Mr.Tony</h2>
-              <p id="para_fonts" style="font-size: 25px;">He is one yr old.He is a calm one...</p>          <div class="zoomin frame">   
-           <img src="img/buy3.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236"> 
+              <p id="para_fonts_2">He is one yr old.He is a calm one...</p>          
+              <div class="zoomin frame">   
+           <img src="img/buy3.jpg" class="img-circle" alt="no image" id="circle_img"> 
              </div></div>
 
      <!--  </div> -->
 
+  <hr>
+ <div>
+  <h2 id="heading_fonts">Its good to hear from you...provide your feedbacks or ask question here..</h2>
+  <!-- Trigger the modal with a button -->
+  <center><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Speak out !</button></center>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Whats on your mind ?</h4>
+        </div>
+        <div class="modal-body">
+          <!-- <p>Some text in the modal.</p> -->
+          <input type="textarea" placeholder="Enter some text here"/>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  </div>
   </div>
 
 
-		<div class="container" id="section41" style="background-color: #852D72;color:white;">
+
+
+		<div class="container footer_div" id="section41">
 		        <footer>
 		               <h2 class="col-md-6">Stay connected with us !!!</h2>
 		               <div class="col-md-6">
